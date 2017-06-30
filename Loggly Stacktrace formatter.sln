@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "all files", "all files", "{71698360-29E4-4020-889D-C597022DD529}"
+	ProjectSection(SolutionItems) = preProject
+		background.js = background.js
+		content.js = content.js
+		icon2.png = icon2.png
+		icon_disabled.png = icon_disabled.png
+		jquery-3.2.1.min.js = jquery-3.2.1.min.js
+		manifest.json = manifest.json
+		options.css = options.css
+		options.html = options.html
+		options.js = options.js
+		popup.css = popup.css
+		popup.html = popup.html
+		popup.js = popup.js
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

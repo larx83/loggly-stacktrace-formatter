@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Loggly Stacktrace Formatter: Options</title>
+		<link rel="stylesheet" href="options.css" />
+		<script src="options.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Loggly Stacktrace Formatter</h1>
+		</header>
+    <section>
+		<h3>Remove lines</h3>
+      <div class="row">
+          <label for="removedlines">Lines will be removed from stacktrace. (one per line)<br/></label>
+          <textarea id="removedlines" rows="10" cols="100"></textarea>
+      </div>
+    </section>
+	
+	<section>
+		<h3>Colorize lines</h3>
+      <div class="row">
+          <label for="removedlines">Lines will be highlighted. (one per line)<br/>
+                  Color;text<br />
+                  Use CSS color definition syntax.<br/>
+              Example: <span style="color: rgb(228, 7, 7)">rgb(228, 7, 7)</span>;System.Data.Sqlite
+          </label>
+          <textarea id="coloredlines" rows="10" cols="100"></textarea>
+      </div>
+    </section>
+
+    <button id="save">Save</button>
+		<button id="restore">Restore Defaults</button>
+
+    <div id="status"></div>
+
+    </body>
+</html>
